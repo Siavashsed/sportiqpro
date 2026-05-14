@@ -1,0 +1,10 @@
+title: SportIQ Pro
+description: Sports performance and coaching science
+theme: minima
+baseurl: ""
+url: "https://sportiqpro.io"
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+minima:
+  skin: dark
