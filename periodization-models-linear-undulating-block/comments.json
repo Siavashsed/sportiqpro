@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c1708",
+    "name": "Marcus T.",
+    "initials": "MT",
+    "color": "#ec4899",
+    "date_iso": "2026-05-16",
+    "date_display": "May 16, 2026",
+    "text": "Been using block periodization with my track team for three seasons now and the results speak for themselves. Linear models just feel too rigid for individual athletes who peak at different times.",
+    "likes": 8
+  },
+  {
+    "id": "c2538",
+    "name": "Sarah K.",
+    "initials": "SK",
+    "color": "#ef4444",
+    "date_iso": "2026-05-19",
+    "date_display": "May 19, 2026",
+    "text": "Great breakdown but I'm still confused about when to switch between phases. Does anyone here use a hybrid approach? My soccer players seem to respond better when I mix undulating and block methods.",
+    "likes": 11
+  },
+  {
+    "id": "c3806",
+    "name": "James P.",
+    "initials": "JP",
+    "color": "#f97316",
+    "date_iso": "2026-05-22",
+    "date_display": "May 22, 2026",
+    "text": "The article glossed over the practical challenges of implementing block periodization with team sports. You can't just shut down strength work for 8 weeks when you have games every week.",
+    "likes": 6
+  },
+  {
+    "id": "c4718",
+    "name": "Elena R.",
+    "initials": "ER",
+    "color": "#a78bfa",
+    "date_iso": "2026-05-26",
+    "date_display": "May 26, 2026",
+    "text": "Undulating periodization changed my approach to conditioning with my CrossFit athletes. Keeps them fresh mentally and the variety has reduced overuse injuries significantly.",
+    "likes": 9
+  },
+  {
+    "id": "c5559",
+    "name": "David M.",
+    "initials": "DM",
+    "color": "#a78bfa",
+    "date_iso": "2026-05-29",
+    "date_display": "May 29, 2026",
+    "text": "Finally someone addresses this without bias. The real answer is that it depends on your sport, competition schedule, and athlete maturity level. No single model works for everyone.",
+    "likes": 12
+  }
+]
