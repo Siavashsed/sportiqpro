@@ -1,73 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SportIQ Pro - Performance Science for Serious Athletes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SportIQ Pro — Performance Science for Serious Athletes</title>
 <meta name="description" content="Evidence-based strength and conditioning for athletes who train seriously and want real results.">
+<link rel="canonical" href="https://siavashsed.github.io/sportiqpro/">
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{  --bg:#0f0f12;--bg2:#18181c;--sur:#22222a;
-  --pri:#ef4444;--pri2:#b91c1c;
-  --txt:#f8f4f4;--mut:#9c8888;--brd:#2e2222;
-  --fh:system-ui,sans-serif;--fb:system-ui,sans-serif;--fm:monospace;}
-body{font-family:var(--fb);background:var(--bg);color:var(--txt);font-size:15px;line-height:1.7;min-height:100vh}
-a{color:var(--pri);text-decoration:none}a:hover{opacity:.8}
-.stk-bar{display:flex;align-items:center;justify-content:space-between;padding:16px 48px;border-bottom:1px solid var(--brd);background:var(--bg);position:sticky;top:0;z-index:99;backdrop-filter:blur(10px)}
-.stk-brand{font-size:18px;font-weight:800;color:var(--txt);letter-spacing:-0.5px;text-decoration:none}
-.stk-brand span{color:var(--pri)}
-.stk-bar-nav{display:flex;gap:28px}.stk-bar-nav a{font-size:13px;color:var(--mut);transition:color .2s}.stk-bar-nav a:hover{color:var(--txt)}
-.stk-splash{padding:80px 48px 64px;background:linear-gradient(160deg,var(--bg2) 0%,var(--bg) 70%);border-bottom:1px solid var(--brd)}
-.stk-splash-tag{font-size:11px;font-weight:700;color:var(--pri);text-transform:uppercase;letter-spacing:3px;margin-bottom:20px}
-.stk-splash h1{font-size:clamp(28px,4vw,52px);font-weight:800;line-height:1.1;letter-spacing:-1px;max-width:700px;margin-bottom:18px}
-.stk-splash p{font-size:16px;color:var(--mut);max-width:580px;line-height:1.8}
-.stk-shelf{padding:56px 48px;max-width:1200px;margin:0 auto}
-.stk-shelf-hd{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--mut);border-bottom:1px solid var(--brd);padding-bottom:12px;margin-bottom:28px}
-.stk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
-.stk-item{background:var(--bg2);border:1px solid var(--brd);border-radius:8px;padding:24px;display:flex;flex-direction:column;gap:10px;transition:border-color .2s,transform .15s}
-.stk-item:hover{border-color:var(--pri2);transform:translateY(-2px)}
-.stk-item-cat{font-size:10px;font-weight:700;color:var(--pri);text-transform:uppercase;letter-spacing:2px}
-.stk-item h2{font-size:17px;font-weight:700;line-height:1.35;color:var(--txt)}
-.stk-item p{font-size:13px;color:var(--mut);line-height:1.75;flex:1}
-.stk-item-meta{font-size:11px;color:var(--mut);display:flex;justify-content:space-between}
-.stk-item-read{font-size:12px;font-weight:600;color:var(--pri)}
-.stk-letter{background:var(--sur);border-top:1px solid var(--brd);border-bottom:1px solid var(--brd);padding:72px 48px;text-align:center}
-.stk-letter h2{font-size:clamp(22px,3vw,34px);font-weight:800;margin-bottom:12px}
-.stk-letter p{color:var(--mut);font-size:15px;margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto}
-.stk-letter-form{display:flex;gap:10px;max-width:440px;margin:0 auto}
-.stk-letter-input{flex:1;background:var(--bg);border:1px solid var(--brd);border-radius:6px;padding:11px 16px;color:var(--txt);font-size:14px;outline:none;transition:border-color .2s}
-.stk-letter-input:focus{border-color:var(--pri)}.stk-letter-input::placeholder{color:var(--mut)}
-.stk-letter-btn{background:var(--pri);color:#000;border:none;border-radius:6px;padding:11px 22px;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;transition:background .2s}
-.stk-letter-btn:hover{background:var(--pri2)}
-.stk-letter-ok{color:var(--pri);font-size:15px;font-weight:600;padding:8px}
-.stk-base{padding:28px 48px;border-top:1px solid var(--brd);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
-.stk-base-copy{font-size:12px;color:var(--mut)}
-.stk-base-links{display:flex;gap:20px}.stk-base-links a{font-size:12px;color:var(--mut)}
-@media(max-width:700px){.stk-bar{padding:12px 16px}.stk-splash{padding:48px 16px 40px}.stk-shelf{padding:40px 16px}.stk-letter{padding:48px 16px}.stk-letter-form{flex-direction:column}.stk-base{padding:20px 16px;flex-direction:column;text-align:center}}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0f0f12;--bg2:#18181c;--surf:#22222a;--text:#f8f4f4;--muted:#9c8888;--red:#ef4444;--brd:#2e2222}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+/* NAV */
+#nav{position:sticky;top:0;z-index:100;background:rgba(15,15,18,.97);border-bottom:2px solid var(--red);backdrop-filter:blur(8px)}
+.nav-inner{max-width:1280px;margin:0 auto;padding:0 20px;height:56px;display:flex;align-items:center;gap:24px}
+.nav-logo{font-size:20px;font-weight:900;letter-spacing:-1px;color:var(--text);text-transform:uppercase;flex-shrink:0}
+.nav-logo span{color:var(--red)}
+.nav-links{display:flex;gap:4px;flex:1}
+.nav-links a{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);padding:6px 12px;border-radius:4px;transition:all .15s}
+.nav-links a:hover{color:var(--text);background:rgba(239,68,68,.1)}
+.nav-date{font-size:11px;color:var(--muted);flex-shrink:0}
+/* TICKER */
+#ticker{background:var(--red);padding:6px 0;overflow:hidden}
+.ticker-inner{display:flex;align-items:center;white-space:nowrap;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#fff;gap:32px;animation:tickerScroll 30s linear infinite}
+@keyframes tickerScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+/* HERO */
+#hero{position:relative;height:520px;overflow:hidden;background:var(--bg2)}
+#hero-img{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s;display:block}
+#hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.9) 0%,rgba(0,0,0,.3) 60%,transparent 100%)}
+#hero-content{position:absolute;bottom:0;left:0;right:0;padding:32px 40px}
+.hero-tag{display:inline-block;background:var(--red);color:#fff;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;padding:3px 10px;border-radius:3px;margin-bottom:12px}
+.hero-title{font-size:clamp(24px,4vw,42px);font-weight:900;line-height:1.15;margin-bottom:10px;max-width:720px;text-shadow:0 2px 8px rgba(0,0,0,.8)}
+.hero-desc{font-size:15px;color:rgba(255,255,255,.8);max-width:560px;margin-bottom:16px;line-height:1.5}
+.hero-btn{display:inline-block;background:var(--red);color:#fff;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;padding:10px 22px;border-radius:4px}
+/* LAYOUT */
+.wrap{max-width:1280px;margin:0 auto;padding:40px 20px}
+.main-grid{display:grid;grid-template-columns:1fr 320px;gap:40px;align-items:start}
+/* ARTICLE CARDS */
+.section-label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:2px;color:var(--red);margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid var(--red)}
+.feat-card{background:var(--surf);border-radius:8px;overflow:hidden;margin-bottom:24px;border:1px solid var(--brd)}
+.feat-card img{width:100%;height:220px;object-fit:cover}
+.feat-card-body{padding:20px}
+.feat-tag{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--red);margin-bottom:8px}
+.feat-title{font-size:20px;font-weight:800;line-height:1.3;margin-bottom:8px}
+.feat-meta{font-size:11px;color:var(--muted)}
+.h-card{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--brd)}
+.h-card:last-child{border-bottom:none}
+.h-card img{width:100px;height:70px;object-fit:cover;border-radius:5px;flex-shrink:0}
+.h-card-body{flex:1}
+.h-card-tag{font-size:9px;font-weight:700;text-transform:uppercase;color:var(--red);margin-bottom:4px}
+.h-card-title{font-size:13px;font-weight:700;line-height:1.35;margin-bottom:4px}
+.h-card-meta{font-size:10px;color:var(--muted)}
+/* SIDEBAR */
+.sidebar-box{background:var(--surf);border-radius:8px;padding:16px;border:1px solid var(--brd);margin-bottom:20px}
+.sidebar-label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--red);margin-bottom:12px}
+.side-item{padding:10px 0;border-bottom:1px solid var(--brd);font-size:12px;font-weight:600;line-height:1.4}
+.side-item:last-child{border-bottom:none}
+.side-num{font-size:18px;font-weight:900;color:var(--red);margin-right:8px;line-height:1}
+.nl-box{background:linear-gradient(135deg,var(--red) 0%,#b91c1c 100%);border-radius:8px;padding:20px;color:#fff}
+.nl-box h4{font-size:14px;font-weight:800;margin-bottom:4px}
+.nl-box p{font-size:12px;opacity:.85;margin-bottom:12px;line-height:1.5}
+.nl-input{width:100%;padding:8px 12px;border:none;border-radius:4px;font-size:12px;margin-bottom:8px}
+.nl-btn{width:100%;background:#fff;color:var(--red);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;border:none;padding:8px;border-radius:4px;cursor:pointer}
+/* MORE GRID */
+.more-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px}
+.grid-card{background:var(--surf);border-radius:8px;overflow:hidden;border:1px solid var(--brd)}
+.grid-card img{width:100%;height:140px;object-fit:cover}
+.grid-card-body{padding:12px}
+.grid-tag{font-size:9px;font-weight:700;text-transform:uppercase;color:var(--red);margin-bottom:5px}
+.grid-title{font-size:13px;font-weight:700;line-height:1.35;margin-bottom:5px}
+.grid-meta{font-size:10px;color:var(--muted)}
+/* FOOTER */
+#foot{background:#000;padding:32px 20px;margin-top:60px;border-top:2px solid var(--red)}
+.foot-inner{max-width:1280px;margin:0 auto;display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center}
+.foot-logo{font-size:18px;font-weight:900;text-transform:uppercase}
+.foot-logo span{color:var(--red)}
+.foot-links{display:flex;gap:16px;flex-wrap:wrap}
+.foot-links a{font-size:11px;color:var(--muted);transition:color .15s}
+.foot-links a:hover{color:var(--text)}
+.foot-copy{font-size:11px;color:var(--muted);width:100%;text-align:center;margin-top:16px;padding-top:16px;border-top:1px solid var(--brd)}
+/* RESPONSIVE */
+@media(max-width:900px){.main-grid{grid-template-columns:1fr}.sidebar-box:last-child{display:none}.more-grid{grid-template-columns:repeat(2,1fr)}.nav-links{display:none}.hero-content{padding:20px}}
+@media(max-width:600px){.more-grid{grid-template-columns:1fr}.hero-title{font-size:22px}.feat-card img{height:170px}}
 </style>
 </head>
 <body>
 
-<!-- nav -->
-<div class="stk-bar">
-  <a href="./" class="stk-brand">SportIQ<span> Pro</span></a>
-  <nav class="stk-bar-nav"><a href="./">Home</a><a href="about.html">About</a></nav>
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-inner">
+    <div class="nav-logo"><span>Sport</span>IQ Pro</div>
+    <div class="nav-links">
+      <a href="#">Training</a>
+      <a href="#">Recovery</a>
+      <a href="#">Nutrition</a>
+      <a href="#">Coaching</a>
+      <a href="#">Research</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav-date" id="nav-date"></div>
+  </div>
+</nav>
+
+<!-- TICKER -->
+<div id="ticker"><div class="ticker-inner" id="ticker-inner">Loading latest…</div></div>
+
+<!-- HERO -->
+<div id="hero">
+  <img id="hero-img" src="" alt="">
+  <div id="hero-overlay"></div>
+  <div id="hero-content">
+    <div class="hero-tag" id="hero-tag">Featured</div>
+    <div class="hero-title" id="hero-title">Loading…</div>
+    <div class="hero-desc" id="hero-desc"></div>
+    <a id="hero-link" href="#" class="hero-btn">Read Full Article →</a>
+  </div>
 </div>
 
-<!-- hero -->
-<div class="stk-splash">
-  <div class="stk-splash-tag">Sports Performance</div>
-  <h1>Performance Science for Serious Athletes</h1>
-  <p>Evidence-based strength and conditioning for athletes who train seriously and want real results.</p>
+<!-- MAIN -->
+<div class="wrap">
+  <div class="main-grid">
+    <div>
+      <div class="section-label">Latest</div>
+      <div id="feat-card-wrap"></div>
+      <div id="h-card-list"></div>
+    </div>
+    <div>
+      <div class="sidebar-box">
+        <div class="sidebar-label">Top Reads</div>
+        <div id="side-list"></div>
+      </div>
+      <div class="nl-box">
+        <h4>The Performance Brief</h4>
+        <p>Weekly programming insights, research breakdowns, and coaching notes.</p>
+        <input class="nl-input" type="email" placeholder="your@email.com">
+        <button class="nl-btn">Subscribe Free</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label" style="margin-top:40px">More Articles</div>
+  <div class="more-grid" id="more-grid"></div>
 </div>
 
-<!-- pexels-banner -->
-<!-- hero-banner -->
-<div id="pxl-wrap" style="width:100%;height:220px;overflow:hidden;position:relative;background:var(--bg2);">
-  <img id="pxl-img" style="width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s;display:block;" alt="">
-  <a id="pxl-cred" href="https://www.pexels.com" target="_blank" rel="noopener" style="position:absolute;bottom:6px;right:10px;font-size:10px;color:rgba(255,255,255,.5);opacity:0;transition:opacity .6s;text-decoration:none;">Photo: Pexels</a>
-</div>
-
-<!-- about section -->
 <div style="background:#18181c;border-top:1px solid #2e2222;border-bottom:1px solid #2e2222;padding:40px">
   <div style="max-width:800px;margin:0 auto">
     <div style="font-size:10px;color:#ef4444;text-transform:uppercase;letter-spacing:3px;margin-bottom:20px">// about this publication</div>
@@ -84,52 +160,67 @@ a{color:var(--pri);text-decoration:none}a:hover{opacity:.8}
   </div>
 </div>
 
-<!-- articles -->
-<div class="stk-shelf">
-  <div class="stk-shelf-hd">Latest Articles</div>
-  <div class="stk-grid" id="stk-grid"></div>
-</div>
-
-<!-- newsletter -->
-<div class="stk-letter">
-  <h2>The Performance Brief</h2>
-  <p>Weekly programming insights, research breakdowns, and coaching notes.</p>
-  <form id="stk-nl" onsubmit="nlSub(event)">
-    <div class="stk-letter-form">
-      <input type="email" class="stk-letter-input" placeholder="your@email.com" required>
-      <button type="submit" class="stk-letter-btn">Subscribe</button>
+<!-- FOOTER -->
+<footer id="foot">
+  <div class="foot-inner">
+    <div class="foot-logo"><span>Sport</span>IQ Pro</div>
+    <div class="foot-links">
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
     </div>
-  </form>
-</div>
-
-<!-- footer -->
-<div class="stk-base">
-  <span class="stk-base-copy">© SportIQ Pro - by Coach Daniel Webb</span>
-  <div class="stk-base-links"><a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="sms.html">SMS Policy</a><a href="meta-policy.html">Meta Policy</a></div>
-</div>
+    <div class="foot-copy">© SportIQ Pro. Science-based performance coaching for competitive athletes and serious trainers.</div>
+  </div>
+</footer>
 
 <script>
-/* load articles grid */
-async function loadPosts(){
-  const el=document.getElementById('stk-grid');
-  try{
-    const r=await fetch('./articles.json');if(!r.ok)throw 0;
-    const posts=await r.json();if(!posts.length)throw 0;
-    el.innerHTML=posts.slice(0,9).map(p=>`<div class="stk-item" style="padding:0;overflow:hidden;">
-      ${p.image?`<a href="./${p.slug||'#'}/"><img src="${p.image}" alt="${p.title}" style="width:100%;height:160px;object-fit:cover;display:block;"></a>`:''}
-      <div style="padding:18px 20px;display:flex;flex-direction:column;gap:8px;flex:1;">
-        <div class="stk-item-cat">Sports Performance</div>
-        <h2>${p.title}</h2>
-        <p>${p.meta_description||''}</p>
-        <div class="stk-item-meta"><span>${p.date_iso||''}</span><a class="stk-item-read" href="./${p.slug||'#'}/">Read →</a></div>
-      </div>
-    </div>`).join('');
-  }catch(e){
-    el.innerHTML='<div class="stk-item"><div class="stk-item-cat">Coming Soon</div><h2>Articles publishing shortly</h2><p>The content system is warming up. Check back soon.</p></div>';
-  }
+document.getElementById('nav-date').textContent = new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+var CATS=['Training','Recovery','Nutrition','Coaching','Research','Programming'];
+function cat(i){return CATS[i%CATS.length];}
+function fmt(d){try{return new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});}catch(e){return '';}}
+function picUrl(slug,w,h){var seed=Math.abs(slug.split('').reduce(function(a,c){return a+c.charCodeAt(0);},0))%1000;return 'https://picsum.photos/seed/siq'+seed+'/'+w+'/'+h;}
+
+function render(posts){
+  if(!posts||!posts.length)return;
+  var p0=posts[0];
+  document.getElementById('hero-tag').textContent=cat(0);
+  document.getElementById('hero-title').textContent=p0.title||'';
+  document.getElementById('hero-desc').textContent=p0.meta_description||'';
+  document.getElementById('hero-link').href=(p0.slug||'#')+'/';
+  var heroImg=document.getElementById('hero-img');
+  heroImg.onload=function(){heroImg.style.opacity='1';};
+  heroImg.src=p0.image||picUrl(p0.slug||'hero',1400,520);
+
+  // Ticker
+  var titles=posts.slice(0,8).map(function(p,i){return '<span style="color:rgba(255,255,255,.5);margin-right:8px">►</span>'+p.title;});
+  var full=titles.concat(titles).join('<span style="margin:0 24px;opacity:.4">·</span>');
+  document.getElementById('ticker-inner').innerHTML=full;
+
+  // Featured card (post 1)
+  var p1=posts[1]||{};
+  document.getElementById('feat-card-wrap').innerHTML=p1.title?
+    '<div class="feat-card"><a href="'+(p1.slug||'#')+'/">'+'<img src="'+(p1.image||picUrl(p1.slug||'f1',600,220))+'" alt="" loading="lazy"></a><div class="feat-card-body"><div class="feat-tag">'+cat(1)+'</div><div class="feat-title"><a href="'+(p1.slug||'#')+'/">'+p1.title+'</a></div><div class="feat-meta">'+fmt(p1.date_iso)+' · '+'Coach Daniel Webb'+'</div></div></div>':'';
+
+  // Horizontal cards (posts 2-4)
+  var hList=document.getElementById('h-card-list');
+  hList.innerHTML=posts.slice(2,5).map(function(p,i){
+    return '<div class="h-card"><a href="'+(p.slug||'#')+'/"><img src="'+(p.image||picUrl(p.slug||'h'+i,200,140))+'" alt="" loading="lazy"></a><div class="h-card-body"><div class="h-card-tag">'+cat(i+2)+'</div><div class="h-card-title"><a href="'+(p.slug||'#')+'/">'+p.title+'</a></div><div class="h-card-meta">'+fmt(p.date_iso)+'</div></div></div>';
+  }).join('');
+
+  // Sidebar (posts 5-9)
+  document.getElementById('side-list').innerHTML=posts.slice(5,10).map(function(p,i){
+    return '<div class="side-item"><span class="side-num">'+(i+1)+'</span><a href="'+(p.slug||'#')+'/">'+p.title+'</a></div>';
+  }).join('');
+
+  // More grid (posts 10-13)
+  document.getElementById('more-grid').innerHTML=posts.slice(10,14).map(function(p,i){
+    return '<div class="grid-card"><a href="'+(p.slug||'#')+'/"><img src="'+(p.image||picUrl(p.slug||'g'+i,400,140))+'" alt="" loading="lazy"></a><div class="grid-card-body"><div class="grid-tag">'+cat(i+3)+'</div><div class="grid-title"><a href="'+(p.slug||'#')+'/">'+p.title+'</a></div><div class="grid-meta">'+fmt(p.date_iso)+'</div></div></div>';
+  }).join('');
 }
-function nlSub(e){e.preventDefault();document.getElementById('stk-nl').innerHTML='<div class="stk-letter-ok">✓ You're in. Check your inbox.</div>';}
-loadPosts();
+
+fetch('articles.json').then(function(r){return r.json();}).then(render).catch(function(){
+  render([{title:'Training Smarter, Not Harder: A Periodization Guide',slug:'periodization-guide',meta_description:'Evidence-based strength and conditioning for athletes who train seriously and want real results.',date_iso:new Date().toISOString()}]);
+});
 /* banner loader: pexels → picsum fallback */
 (function(){
   var el=document.getElementById('pxl-img');
@@ -144,11 +235,12 @@ loadPosts();
     fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent('athlete strength training sports performance')+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
       .then(function(r){return r.json();}).then(function(d){
         if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
-        else{showImg('https://picsum.photos/seed/983/1400/400','');}
-      }).catch(function(){showImg('https://picsum.photos/seed/983/1400/400','');});
+        else{showImg('https://picsum.photos/seed/746/1400/400','');}
+      }).catch(function(){showImg('https://picsum.photos/seed/746/1400/400','');});
   }else{
-    showImg('https://picsum.photos/seed/983/1400/400','');
+    showImg('https://picsum.photos/seed/746/1400/400','');
   }
 })();
 </script>
-</body></html>
+</body>
+</html>
