@@ -1,211 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>About Coach Daniel Webb - SportIQ Pro</title>
-<meta name="description" content="Science-based performance coaching for competitive athletes and serious trainers.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About — SportIQ Pro</title>
 <style>
-/* === reset === */
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{  --bg:#0f0f12;--bg2:#18181c;--sur:#22222a;
-  --pri:#ef4444;--pri2:#b91c1c;
-  --txt:#f8f4f4;--mut:#9c8888;--brd:#2e2222;
-  --fh:system-ui,sans-serif;--fb:system-ui,sans-serif;--fm:monospace;}
-body{font-family:var(--fb);background:var(--bg);color:var(--txt);font-size:15px;line-height:1.7;min-height:100vh}
-a{color:var(--pri);text-decoration:none}a:hover{opacity:.8}
-/* === nav === */
-.stk-bar{display:flex;align-items:center;justify-content:space-between;padding:16px 48px;border-bottom:1px solid var(--brd);background:var(--bg);position:sticky;top:0;z-index:99}
-.stk-brand{font-size:18px;font-weight:800;color:var(--txt);letter-spacing:-0.5px;text-decoration:none}
-.stk-brand span{color:var(--pri)}.stk-bar-nav{display:flex;gap:28px}.stk-bar-nav a{font-size:13px;color:var(--mut)}.stk-bar-nav a:hover{color:var(--txt)}
-/* === author hero band === */
-.abt-hero{background:linear-gradient(135deg,var(--bg2) 0%,var(--bg) 80%);border-bottom:1px solid var(--brd);padding:56px 48px;display:flex;align-items:center;gap:36px}
-.abt-avi{width:84px;height:84px;border-radius:50%;background:var(--pri);display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:#000;flex-shrink:0;border:3px solid var(--brd)}
-.abt-hero-name{font-size:clamp(22px,3vw,36px);font-weight:800;margin-bottom:6px;letter-spacing:-0.5px}
-.abt-hero-title{font-size:14px;color:var(--pri);font-weight:600}
-.abt-hero-cat{font-size:11px;color:var(--mut);margin-top:4px}
-/* === body === */
-.abt-content{max-width:740px;margin:0 auto;padding:52px 48px}
-.abt-section{margin-bottom:40px}
-.abt-section h2{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--pri);border-bottom:1px solid var(--brd);padding-bottom:10px;margin-bottom:20px}
-.abt-p{color:var(--mut);line-height:1.9;margin-bottom:14px}
-/* === highlight box === */
-.abt-highlight{background:var(--bg2);border:1px solid var(--brd);border-radius:8px;padding:20px 22px;margin-bottom:40px}
-.abt-highlight-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--pri);margin-bottom:8px}
-.abt-highlight p{font-size:14px;color:var(--txt);line-height:1.75}
-/* === newsletter === */
-.abt-nl{background:var(--bg2);border:1px solid var(--brd);border-radius:8px;padding:28px;margin-top:8px}
-.abt-nl h3{font-size:18px;font-weight:700;margin-bottom:8px}.abt-nl p{color:var(--mut);margin-bottom:18px}
-.stk-letter-form{display:flex;gap:10px;max-width:420px}
-.stk-letter-input{flex:1;background:var(--bg);border:1px solid var(--brd);border-radius:6px;padding:10px 14px;color:var(--txt);font-size:14px;outline:none;transition:border-color .2s}
-.stk-letter-input:focus{border-color:var(--pri)}.stk-letter-input::placeholder{color:var(--mut)}
-.stk-letter-btn{background:var(--pri);color:#000;border:none;border-radius:6px;padding:10px 20px;font-size:14px;font-weight:700;cursor:pointer;transition:background .2s}
-.stk-letter-btn:hover{background:var(--pri2)}.stk-letter-ok{color:var(--pri);font-weight:600;padding:6px 0}
-/* === footer === */
-.stk-base{padding:24px 48px;border-top:1px solid var(--brd);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:20px}
-.stk-base-copy,.stk-base-links a{font-size:12px;color:var(--mut)}.stk-base-links{display:flex;gap:20px}
-@media(max-width:700px){.stk-bar{padding:12px 16px}.abt-hero{padding:36px 16px;flex-direction:column;gap:20px}.abt-content{padding:36px 16px}.stk-letter-form{flex-direction:column}.stk-base{padding:20px 16px}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0f0f12;color:#f8f4f4;font-family:system-ui,sans-serif;line-height:1.7}
+a{color:#ef4444;text-decoration:none}
+#nav{position:sticky;top:0;background:rgba(15,15,18,.97);border-bottom:2px solid #ef4444;padding:0 20px;height:56px;display:flex;align-items:center;gap:24px;z-index:100}
+.nav-logo{font-size:18px;font-weight:900;text-transform:uppercase;color:#f8f4f4}
+.nav-logo span{color:#ef4444}
+.wrap{max-width:800px;margin:0 auto;padding:48px 20px}
+h1{font-size:32px;font-weight:900;margin-bottom:8px}
+.sub{color:#9c8888;font-size:14px;margin-bottom:32px}
+h2{font-size:18px;font-weight:800;margin:32px 0 12px;color:#ef4444}
+p{margin-bottom:16px;color:#f8f4f4}
+#foot{background:#000;border-top:2px solid #ef4444;padding:24px 20px;text-align:center;font-size:11px;color:#9c8888}
 </style>
 </head>
 <body>
-
-<!-- nav -->
-<div class="stk-bar">
-  <a href="./" class="stk-brand">SportIQ<span> Pro</span></a>
-  <nav class="stk-bar-nav"><a href="./">Home</a><a href="about.html">About</a></nav>
+<nav id="nav"><div class="nav-logo"><a href="/" style="color:#f8f4f4"><span>Sport</span>IQ Pro</a></div></nav>
+<div id="pxl-wrap" style="height:200px;overflow:hidden;position:relative"><img id="pxl-img" style="width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s;display:block" alt=""><div style="position:absolute;inset:0;background:linear-gradient(to right,#0f0f12dd,transparent)"></div></div>
+<div class="wrap">
+  <h1>About SportIQ Pro</h1>
+  <div class="sub">Performance Science for Serious Athletes</div>
+  <h2>Our Mission</h2>
+  <p>Evidence-based strength and conditioning for athletes who train seriously and want real results.</p>
+  <h2>The Author</h2>
+  <p><strong>Coach Daniel Webb</strong> — CSCS-Certified Strength & Conditioning Coach</p>
+  <p>I've spent 14 years coaching strength and conditioning - from high school varsity teams to professional athletes. The gap between what coaches do and what the research shows is often embarrassingly wide.</p>
+  <p>SportIQ Pro is my attempt to close that gap. Every programming decision, every recovery protocol, every piece of nutrition advice gets run against the actual evidence. No bro science.</p>
+  <h2>Editorial Standards</h2>
+  <p>Every article published on SportIQ Pro is reviewed against current peer-reviewed research. Claims are cited where possible. Opinion pieces are clearly labeled as such. We don't accept sponsored content or affiliate-influenced editorial.</p>
+  <p><a href="/">← Back to SportIQ Pro</a></p>
 </div>
-
-<!-- author-hero -->
-<div class="abt-hero">
-  <div class="abt-avi">CDW</div>
-  <div>
-    <div class="abt-hero-name">Coach Daniel Webb</div>
-    <div class="abt-hero-title">CSCS-Certified Strength & Conditioning Coach</div>
-    <div class="abt-hero-cat">Sports Performance</div>
-  </div>
-</div>
-
-<!-- pexels-banner -->
-<!-- hero-banner -->
-<div id="pxl-wrap" style="width:100%;height:220px;overflow:hidden;position:relative;background:var(--bg2);">
-  <img id="pxl-img" style="width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s;display:block;" alt="">
-  <a id="pxl-cred" href="https://www.pexels.com" target="_blank" rel="noopener" style="position:absolute;bottom:6px;right:10px;font-size:10px;color:rgba(255,255,255,.5);opacity:0;transition:opacity .6s;text-decoration:none;">Photo: Pexels</a>
-</div>
-
-<!-- main-content -->
-<div class="abt-content">
-
-  <!-- section: background story -->
-  <div class="abt-section">
-    <h2>Background</h2>
-    <p class="abt-p">I played competitive football through college and knew before I graduated that my future was in coaching rather than playing. I got my CSCS certification immediately after my degree and started coaching at a university strength program while completing my graduate work in exercise science.</p>
-    <p class="abt-p">Fourteen years of coaching athletes across multiple sports and levels has given me a clear picture of the gap between sports science research and actual coaching practice. That gap is often embarrassingly wide. Published research on recovery says one thing, and most programs do the opposite.</p>
-    <p class="abt-p">My coaching work eventually moved into professional settings. Working with athletes competing for contracts accelerated my education significantly - when the margin for programming errors shrinks to zero, you get clear on what the evidence actually supports versus what you assumed.</p>
-    <p class="abt-p">What frustrates me most about online fitness content is the confident presentation of ideas that do not hold up to the evidence. Bro science is still everywhere. Recovery protocols are still promoted based on anecdote. Nutrition advice is still dominated by tribal allegiances rather than controlled trials.</p>
-    <p class="abt-p">SportIQ Pro is my attempt to close the gap between what the research shows and what athletes actually implement. Every article connects a practical recommendation to the evidence behind it. The reasoning is visible so athletes can evaluate it themselves.</p>
-  </div>
-
-  <!-- section: what this site is about -->
-  <div class="abt-highlight">
-    <div class="abt-highlight-label">What This Site Covers</div>
-    <p>Evidence-based strength and conditioning for athletes who train seriously and want real results.</p>
-  </div>
-
-  <!-- section: site mission -->
-  <div class="abt-section">
-    <h2>About SportIQ Pro</h2>
-    <p class="abt-p">Science-based performance coaching for competitive athletes and serious trainers.</p>
-    <p class="abt-p">Content in the Sports Performance space is published here on an ongoing basis. No sponsored content, no paid placements - just the analysis and frameworks I find genuinely useful.</p>
-  </div>
-
-  <!-- section: newsletter -->
-  <div class="abt-nl">
-    <h3>The Performance Brief</h3>
-    <p>Weekly programming insights, research breakdowns, and coaching notes.</p>
-    <form id="abt-nl" onsubmit="nlSub(event)">
-      <div class="stk-letter-form">
-        <input type="email" class="stk-letter-input" placeholder="your@email.com" required>
-        <button type="submit" class="stk-letter-btn">Subscribe</button>
-      </div>
-    </form>
-  </div>
-
-</div>
-
-<!-- section: contributors -->
-<div style="max-width:860px;margin:0 auto;padding:0 48px 32px">
-  <div class="abt-section-hd" style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--mut);margin-bottom:14px">Contributors</div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-    <div style="background:var(--sur);border:1px solid var(--brd);border-radius:10px;padding:16px;display:flex;gap:12px;align-items:flex-start">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--pri);color:#000;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0">CS</div>
+<div style="background:#18181c;border-top:1px solid #2e2222;border-bottom:1px solid #2e2222;padding:40px">
+  <div style="max-width:800px;margin:0 auto">
+    <div style="font-size:10px;color:#ef4444;text-transform:uppercase;letter-spacing:3px;margin-bottom:20px">// about this publication</div>
+    <div style="display:grid;grid-template-columns:60px 1fr;gap:20px;align-items:start;margin-bottom:24px">
+      <div style="width:56px;height:56px;border-radius:50%;background:#ef4444;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:800;color:#000;flex-shrink:0;letter-spacing:-1px">CD</div>
       <div>
-        <div style="font-size:14px;font-weight:700;color:var(--txt)">Claire Sutton</div>
-        <div style="font-size:11px;color:var(--pri);margin-bottom:5px;font-weight:600">Industry Contributor</div>
-        <div style="font-size:12px;color:var(--mut);line-height:1.6">Worked in PR for major financial brands before switching sides. Understands how the narrative gets constructed, and how to cut through it.</div>
+        <div style="font-size:16px;font-weight:700;color:#f8f4f4;margin-bottom:2px">Coach Daniel Webb</div>
+        <div style="font-size:12px;color:#ef4444;margin-bottom:14px;font-weight:600">CSCS-Certified Strength & Conditioning Coach</div>
+        <p style="font-size:14px;color:#9c8888;line-height:1.85;margin-bottom:12px">I've spent 14 years coaching strength and conditioning - from high school varsity teams to professional athletes. The gap between what coaches do and what the research shows is often embarrassingly wide.</p>
+        <p style="font-size:14px;color:#9c8888;line-height:1.85">SportIQ Pro is my attempt to close that gap. Every programming decision, every recovery protocol, every piece of nutrition advice gets run against the actual evidence. No bro science.</p>
       </div>
     </div>
-    <div style="background:var(--sur);border:1px solid var(--brd);border-radius:10px;padding:16px;display:flex;gap:12px;align-items:flex-start">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--pri);color:#000;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0">AO</div>
-      <div>
-        <div style="font-size:14px;font-weight:700;color:var(--txt)">Amara Okafor</div>
-        <div style="font-size:11px;color:var(--pri);margin-bottom:5px;font-weight:600">Strategy Contributor</div>
-        <div style="font-size:12px;color:var(--mut);line-height:1.6">Portfolio manager background. Writes about position sizing, risk management, and the behavioral side of long-term investing.</div>
-      </div>
-    </div>
-    <div style="background:var(--sur);border:1px solid var(--brd);border-radius:10px;padding:16px;display:flex;gap:12px;align-items:flex-start">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--pri);color:#000;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0">RK</div>
-      <div>
-        <div style="font-size:14px;font-weight:700;color:var(--txt)">Rachel Kim</div>
-        <div style="font-size:11px;color:var(--pri);margin-bottom:5px;font-weight:600">Contributing Analyst</div>
-        <div style="font-size:12px;color:var(--mut);line-height:1.6">Former hedge fund researcher. Covers quantitative methods and market microstructure. Has contributed to three academic finance papers.</div>
-      </div>
-    </div>
-    <div style="background:var(--sur);border:1px solid var(--brd);border-radius:10px;padding:16px;display:flex;gap:12px;align-items:flex-start">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--pri);color:#000;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0">DO</div>
-      <div>
-        <div style="font-size:14px;font-weight:700;color:var(--txt)">Daniel Osei</div>
-        <div style="font-size:11px;color:var(--pri);margin-bottom:5px;font-weight:600">Field Correspondent</div>
-        <div style="font-size:12px;color:var(--mut);line-height:1.6">On the ground covering conferences, product launches, and industry events. Focuses on what the press releases leave out.</div>
-      </div>
-    </div>
+    <a href="about.html" style="display:inline-block;border:1px solid #ef4444;color:#ef4444;padding:8px 20px;border-radius:3px;font-size:12px;font-weight:700;text-decoration:none;text-transform:uppercase;letter-spacing:1px;transition:all .2s">Full bio →</a>
   </div>
 </div>
-
-<!-- section: comments -->
-<div style="max-width:860px;margin:0 auto;padding:0 48px 40px">
-  <div class="abt-section-hd" style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--mut);margin-bottom:14px">Reader Comments</div>
-  <div style="background:var(--sur);border:1px solid var(--brd);border-radius:10px;padding:4px 20px">
-    <div style="padding:14px 0;border-bottom:1px solid var(--brd)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">J</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Julia M.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">Bookmarked every major article this site has published. My actual reference library for this topic, not just casual reading.</div>
-    </div>
-    <div style="padding:14px 0;border-bottom:1px solid var(--brd)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">R</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Raj P.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">The data-first approach here is exactly what I was looking for. Most analysis I find online is opinion dressed up as research.</div>
-    </div>
-    <div style="padding:14px 0;border-bottom:1px solid var(--brd)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">B</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Brett W.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">I appreciate that corrections get made openly and visibly. That kind of intellectual honesty is rare and worth rewarding with attention.</div>
-    </div>
-    <div style="padding:14px 0;border-bottom:1px solid var(--brd)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">H</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Hannah O.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">Came for one article, stayed for the whole archive. The depth on topics most outlets treat as afterthoughts is impressive.</div>
-    </div>
-    <div style="padding:14px 0;border-bottom:none">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">M</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Mike H.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">The level of detail here is what keeps me coming back. You actually back up the claims instead of just asserting them.</div>
-    </div>
-  </div>
-</div>
-
-<!-- footer -->
-<div class="stk-base">
-  <span class="stk-base-copy">© SportIQ Pro</span>
-  <div class="stk-base-links"><a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="sms.html">SMS Policy</a><a href="meta-policy.html">Meta Policy</a></div>
-</div>
-
-<script>
-function nlSub(e){e.preventDefault();e.target.innerHTML='<div class="stk-letter-ok">✓ Subscribed.</div>';}
-/* banner loader: pexels → picsum fallback */
+<footer id="foot">© SportIQ Pro · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></footer>
+<script>/* banner loader: pexels → picsum fallback */
 (function(){
   var el=document.getElementById('pxl-img');
   var cr=document.getElementById('pxl-cred');
@@ -219,11 +65,11 @@ function nlSub(e){e.preventDefault();e.target.innerHTML='<div class="stk-letter-
     fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent('athlete strength training sports performance')+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
       .then(function(r){return r.json();}).then(function(d){
         if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
-        else{showImg('https://picsum.photos/seed/983/1400/400','');}
-      }).catch(function(){showImg('https://picsum.photos/seed/983/1400/400','');});
+        else{showImg('https://picsum.photos/seed/746/1400/400','');}
+      }).catch(function(){showImg('https://picsum.photos/seed/746/1400/400','');});
   }else{
-    showImg('https://picsum.photos/seed/983/1400/400','');
+    showImg('https://picsum.photos/seed/746/1400/400','');
   }
-})();
-</script>
-</body></html>
+})();</script>
+</body>
+</html>
