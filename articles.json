@@ -24,5 +24,17 @@
       "nsca.com",
       "journals.lww.com"
     ]
+  },
+  {
+    "title": "Plyometric Training for Heavy Lifters: How to Stack Power Without Burning Out",
+    "slug": "plyometrics-heavy-lifting-athletes",
+    "meta_description": "Coach Daniel Webb explains how to program plyometrics alongside heavy lifting without wrecking recovery or leaving power gains on the table.",
+    "date": "May 17, 2026",
+    "date_iso": "2026-05-17",
+    "author": "Coach Daniel Webb",
+    "image": "https://images.pexels.com/photos/26605645/pexels-photo-26605645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nsca.com"
+    ]
   }
 ]
