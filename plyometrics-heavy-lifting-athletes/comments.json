@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c1605",
+    "name": "Marcus T.",
+    "initials": "MT",
+    "color": "#ec4899",
+    "date_iso": "2026-05-19",
+    "date_display": "May 19, 2026",
+    "text": "Been doing box jumps 2x a week with my squat training and my vertical is up 3 inches. The key is really the recovery piece - I was burning out until I cut the volume in half.",
+    "likes": 8
+  },
+  {
+    "id": "c2994",
+    "name": "Sarah K.",
+    "initials": "SK",
+    "color": "#ef4444",
+    "date_iso": "2026-05-22",
+    "date_display": "May 22, 2026",
+    "text": "Great article but I'm still confused about the programming. Should plyos come before or after heavy lifting in the session? Currently doing them after and feeling pretty fatigued.",
+    "likes": 11
+  },
+  {
+    "id": "c3144",
+    "name": "James R.",
+    "initials": "JR",
+    "color": "#f97316",
+    "date_iso": "2026-05-25",
+    "date_display": "May 25, 2026",
+    "text": "This is spot on. Too many lifters I see in the gym jump into plyos without building the foundational strength first. You need a solid base or you're just asking for injury.",
+    "likes": 9
+  },
+  {
+    "id": "c4917",
+    "name": "Devon L.",
+    "initials": "DL",
+    "color": "#38bdf8",
+    "date_iso": "2026-05-28",
+    "date_display": "May 28, 2026",
+    "text": "Tried the med ball throws with my deadlift block last month. Loved the power transfer but my shoulder started tweaking. Anyone else have shoulder issues with explosive work?",
+    "likes": 5
+  },
+  {
+    "id": "c5890",
+    "name": "Patricia M.",
+    "initials": "PM",
+    "color": "#ef4444",
+    "date_iso": "2026-06-02",
+    "date_display": "Jun 2, 2026",
+    "text": "Finally something that explains why I was getting so beat up. The distinction between power endurance and maximal power training was really helpful for programming my clients.",
+    "likes": 7
+  }
+]
