@@ -50,8 +50,7 @@ img{max-width:100%;display:block}
 .hero-top{background:var(--accent);overflow:hidden;padding:8px 0;position:relative;z-index:2}
 .ticker-inner{display:inline-flex;white-space:nowrap;animation:tick 32s linear infinite}
 .ticker-item{font-family:var(--cond);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#fff;padding:0 26px}
-.ticker-item::after{content:"/";margin-left:26px;opacity:.5;font-weight:900}
-@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ticker-item::after{content:"/";margin-left:26px;opacity:.5;font-weight:900}@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .hero-body{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;padding:64px 0 72px;align-items:center}
 .hero-h1{font-family:var(--cond);font-size:clamp(52px,7vw,92px);font-weight:900;line-height:.9;letter-spacing:-.015em;text-transform:uppercase;color:#fff;margin:18px 0 18px}
 .hero-h1 em{color:var(--accent);font-style:normal}
@@ -69,12 +68,10 @@ img{max-width:100%;display:block}
 .hc-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
 .hc-title{font-family:var(--cond);font-size:14px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .hc-live{display:flex;align-items:center;gap:7px;font-family:var(--cond);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--lime)}
-.hc-dot{width:8px;height:8px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 0 rgba(198,242,78,.6);animation:pulse 2s infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(198,242,78,.5)}70%{box-shadow:0 0 0 9px rgba(198,242,78,0)}100%{box-shadow:0 0 0 0 rgba(198,242,78,0)}}
+.hc-dot{width:8px;height:8px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 0 rgba(198,242,78,.6);animation:pulse 2s infinite}@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(198,242,78,.5)}70%{box-shadow:0 0 0 9px rgba(198,242,78,0)}100%{box-shadow:0 0 0 0 rgba(198,242,78,0)}}
 .hc-chart{display:flex;align-items:flex-end;gap:7px;height:118px;margin-bottom:18px}
 .hc-bar{flex:1;background:linear-gradient(180deg,var(--accent2),var(--accent));border-radius:5px 5px 0 0;animation:grow 1s cubic-bezier(.16,.84,.44,1) backwards}
-.hc-bar:nth-child(7){background:linear-gradient(180deg,var(--lime),#9bd000)}
-@keyframes grow{from{height:0!important}}
+.hc-bar:nth-child(7){background:linear-gradient(180deg,var(--lime),#9bd000)}@keyframes grow{from{height:0!important}}
 .hc-rows{display:flex;flex-direction:column;gap:1px;background:var(--border);border-radius:8px;overflow:hidden}
 .hc-row{background:var(--bg2);display:flex;justify-content:space-between;align-items:center;padding:11px 14px}
 .hc-row span:first-child{font-size:13px;color:var(--muted)}
@@ -221,17 +218,14 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:60px 0 2
 .f-links a{font-size:13px;color:var(--muted);transition:color .15s}
 .f-links a:hover{color:var(--accent)}
 .f-bottom{border-top:1px solid var(--border);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.f-copy{font-size:12px;color:var(--muted)}
-
-@media(max-width:980px){
+.f-copy{font-size:12px;color:var(--muted)}@media(max-width:980px){
   .hero-body{grid-template-columns:1fr;gap:40px}
   .why-grid,.coach-in{grid-template-columns:1fr;gap:34px}
   .val-grid,.topic-grid,.tips-grid,.art-grid{grid-template-columns:repeat(2,1fr)}
   .stats-in{grid-template-columns:repeat(2,1fr);gap:32px 0}
   .stat-cell:nth-child(2){border-right:none}
   .footer-in{grid-template-columns:1fr 1fr}
-}
-@media(max-width:640px){
+}@media(max-width:640px){
   .nav-links{display:none}
   .val-grid,.topic-grid,.tips-grid,.art-grid{grid-template-columns:1fr}
   .stats-in{grid-template-columns:1fr}
@@ -241,6 +235,32 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:60px 0 2
   .why-visual{grid-template-columns:1fr}
   .wv-card.tall{grid-row:auto}
 }
+
+/* CONTRAST-AUDIT v1 */
+/* Article-page-only contrast guard. body[data-page-depth="1"] is stamped on
+   every article by layout_shell.wrap_page. Homepage (depth=0) is untouched. */
+body[data-page-depth="1"] h1,
+body[data-page-depth="1"] h2,
+body[data-page-depth="1"] h3,
+body[data-page-depth="1"] .art-title,
+body[data-page-depth="1"] .article-title,
+body[data-page-depth="1"] .mag-hero h1,
+body[data-page-depth="1"] .imm-hero h1,
+body[data-page-depth="1"] article h1,
+body[data-page-depth="1"] article h2,
+body[data-page-depth="1"] article h3{color:#ffffff !important}
+body[data-page-depth="1"] article p,
+body[data-page-depth="1"] article li,
+body[data-page-depth="1"] .art-body p,
+body[data-page-depth="1"] .mag-body p,
+body[data-page-depth="1"] .imm-body p,
+body[data-page-depth="1"] article .intro,
+body[data-page-depth="1"] article .concl,
+body[data-page-depth="1"] article strong{color:#e6e6e6 !important}
+body[data-page-depth="1"] article a,
+body[data-page-depth="1"] article p a,
+body[data-page-depth="1"] article .intro a{color:#fa4a1e !important;text-decoration:underline;text-underline-offset:3px}
+/* /CONTRAST-AUDIT */
 </style>
 </head>
 <body>
@@ -324,7 +344,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:60px 0 2
     <span class="trust-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Sports Lab</span>
     <span class="trust-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>PeakProtocol</span>
     <span class="trust-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 17l5-6 4 3 6-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="6" r="2" fill="currentColor"/></svg>MetricLab</span>
-    <span class="trust-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 4v8a6 6 0 0012 0V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M9 20h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Endure Co</span>
+    <span class="trust-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 4v8a6 6 0 0012 0V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Endure Co</span>
     <span class="trust-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1 3-6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>EliteForm</span>
   </div>
 </section>
@@ -394,7 +414,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:60px 0 2
         <p class="val-desc">Sleep architecture, HRV, cold and heat exposure - the protocols that turn training stress into adaptation.</p>
       </div>
       <div class="val-card reveal">
-        <div class="val-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M7 3v6a5 5 0 0010 0V3" stroke="#fa4a1e" stroke-width="2.2" stroke-linecap="round"/><path d="M12 14v7M8 21h8" stroke="#fa4a1e" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+        <div class="val-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M7 3v6a5 5 0 0010 0V3" stroke="#fa4a1e" stroke-width="2.2" stroke-linecap="round"/></svg></div>
         <div class="val-title">Nutrition & Fueling</div>
         <p class="val-desc">Protein timing, carb periodization, and supplement evidence - what actually moves the needle for performance.</p>
       </div>
@@ -404,7 +424,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:60px 0 2
         <p class="val-desc">Visualization, arousal control, and motivation systems used by elite competitors under real pressure.</p>
       </div>
       <div class="val-card reveal">
-        <div class="val-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 17l5-6 4 3 7-9" stroke="#fa4a1e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 5h4v4" stroke="#fa4a1e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="val-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 17l5-6 4 3 7-9" stroke="#fa4a1e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
         <div class="val-title">Data & Tracking</div>
         <p class="val-desc">How to read wearable metrics, set baselines, and use numbers to decide when to push and when to back off.</p>
       </div>
@@ -522,7 +542,6 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:60px 0 2
           <defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fa4a1e"/><stop offset="1" stop-color="#ff6a3c"/></linearGradient></defs>
           <circle cx="60" cy="44" r="24" fill="url(#cg)"/>
           <path d="M18 108c0-23 19-38 42-38s42 15 42 38" fill="url(#cg)"/>
-          <path d="M48 44l8 8 18-18" stroke="#0a0d12" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
     </div>
@@ -653,7 +672,6 @@ function thumbSVG(i){
     <rect width="400" height="200" fill="url(#g${i})"/>
     <circle cx="330" cy="40" r="70" fill="${b}" opacity="0.18"/>
     <path d="M-10 150 L90 100 L170 140 L260 70 L340 110 L420 60" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.4"/>
-    <path d="M-10 180 L80 150 L180 175 L280 120 L420 150" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.2"/>
   </svg>`;
 }
 
