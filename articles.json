@@ -10,7 +10,8 @@
     "outbound_links": [
       "nsca.com",
       "journals.lww.com"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "How to Program Deload Weeks Without Losing Your Strength Gains",
@@ -23,7 +24,8 @@
     "outbound_links": [
       "nsca.com",
       "journals.lww.com"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "Plyometric Training for Heavy Lifters: How to Stack Power Without Burning Out",
@@ -35,6 +37,7 @@
     "image": "https://images.pexels.com/photos/26605645/pexels-photo-26605645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "nsca.com"
-    ]
+    ],
+    "category": "Strength"
   }
 ]
