@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://siavashsed.github.io/sportiqpro/</loc><lastmod>2026-05-17</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://siavashsed.github.io/sportiqpro/about/</loc><lastmod>2026-05-17</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://siavashsed.github.io/sportiqpro/contact/</loc><lastmod>2026-05-17</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://siavashsed.github.io/sportiqpro/privacy/</loc><lastmod>2026-05-17</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/</loc><lastmod>2026-05-28</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/about/</loc><lastmod>2026-05-28</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/contact/</loc><lastmod>2026-05-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/privacy/</loc><lastmod>2026-05-28</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://siavashsed.github.io/sportiqpro/periodization-models-linear-undulating-block/</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://siavashsed.github.io/sportiqpro/deload-weeks-preserve-strength-gains/</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://siavashsed.github.io/sportiqpro/plyometrics-heavy-lifting-athletes/</loc><lastmod>2026-05-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/catapult-2022-gps-wearable-sports-performance/</loc><lastmod>2022-03-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/whoop-5-wearable-sports-performance-2024/</loc><lastmod>2024-10-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/catapult-gps-wearables-2019-load-management/</loc><lastmod>2019-05-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
