@@ -92,5 +92,41 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Building a 12-Week Strength Program From Scratch: A Coach's Honest Blueprint",
+    "slug": "12-week-strength-program-blueprint",
+    "meta_description": "CSCS coach Daniel Webb breaks down how to build a 12-week strength program that actually works, with periodization, deload strategy, and real training logic.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/12959247/pexels-photo-12959247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "journals.lww.com",
+      "ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "NSCA's 2024 Coaching Education Overhaul: What It Actually Means for Working Strength Coaches",
+    "slug": "nsca-2024-coaching-education-standards",
+    "meta_description": "The NSCA overhauled its coaching education standards in 2024. Here's what changed, why it matters, and what strength coaches need to do right now.",
+    "date": "December 07, 2024",
+    "date_iso": "2024-12-07",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/9479119/pexels-photo-9479119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nsca.com",
+      "journals.lww.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
