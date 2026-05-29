@@ -56,7 +56,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "Whoop 5.0 and the Wearable Reckoning: What the 2024 Launch Really Meant for Strength Coaches",
@@ -73,7 +74,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Readiness"
   },
   {
     "title": "Catapult's 2019 Wearable GPS Push Changed How Coaches Actually Use Load Data",
@@ -91,7 +93,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Readiness"
   },
   {
     "title": "Building a 12-Week Strength Program From Scratch: A Coach's Honest Blueprint",
@@ -108,7 +111,8 @@
     "posted_iso": "2026-05-29",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "NSCA's 2024 Coaching Education Overhaul: What It Actually Means for Working Strength Coaches",
@@ -127,6 +131,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Readiness"
   }
 ]
