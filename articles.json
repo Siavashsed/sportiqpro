@@ -133,5 +133,40 @@
       "en"
     ],
     "category": "Readiness"
+  },
+  {
+    "title": "Nutrition Timing Around Training: What the Latest Research Actually Says",
+    "slug": "nutrition-timing-training-research",
+    "meta_description": "Coach Daniel Webb breaks down nutrition timing research for athletes - what works, what's overhyped, and when to eat around training.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/9213859/pexels-photo-9213859.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "jissn.biomedcentral.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Catapult's 2019 GPS Wearable Push Proved Load Management Was No Longer Optional",
+    "slug": "catapult-gps-2019-load-management-coaches",
+    "meta_description": "Coach Daniel Webb breaks down how Catapult's 2019 wearable GPS expansion changed load management for strength coaches at every level.",
+    "date": "June 06, 2019",
+    "date_iso": "2019-06-06",
+    "author": "Coach Daniel Webb, CSCS",
+    "image": "https://images.pexels.com/photos/5457981/pexels-photo-5457981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "bjsm.bmj.com"
+    ],
+    "posted_iso": "2026-05-31",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
