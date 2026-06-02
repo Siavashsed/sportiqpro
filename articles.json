@@ -149,7 +149,8 @@
     "posted_iso": "2026-05-31",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Nutrition"
   },
   {
     "title": "Catapult's 2019 GPS Wearable Push Proved Load Management Was No Longer Optional",
@@ -167,6 +168,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Readiness"
   }
 ]
