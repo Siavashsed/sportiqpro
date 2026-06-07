@@ -170,5 +170,41 @@
       "en"
     ],
     "category": "Readiness"
+  },
+  {
+    "title": "The Block Periodization Blueprint: Programming Strength, Hypertrophy, and Power in Sequence",
+    "slug": "block-periodization-strength-hypertrophy-power",
+    "meta_description": "Coach Daniel Webb breaks down block periodization for athletes: how to sequence hypertrophy, strength, and power blocks for real results.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/6456133/pexels-photo-6456133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "journals.lww.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Catapult's 2022 GPS Data Push: What It Actually Changed for Strength Coaches on the Ground",
+    "slug": "catapult-2022-gps-strength-coaches",
+    "meta_description": "Catapult's 2022 wearable data expansion reshaped how strength coaches use GPS tracking. Here's what it meant in practice.",
+    "date": "January 26, 2022",
+    "date_iso": "2022-01-26",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/7188055/pexels-photo-7188055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "catapultsports.com",
+      "journals.lww.com",
+      "bjsm.bmj.com"
+    ],
+    "posted_iso": "2026-06-07",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
