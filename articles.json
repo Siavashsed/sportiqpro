@@ -206,5 +206,24 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Catapult's 2023 Overhaul Changed How Coaches Read Athlete Load Data",
+    "slug": "catapult-2023-load-monitoring-update",
+    "meta_description": "Daniel Webb breaks down Catapult's 2023 platform update and what it actually meant for load monitoring in professional sport. Real-world perspective.",
+    "date": "October 27, 2023",
+    "date_iso": "2023-10-27",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/10439211/pexels-photo-10439211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "bjsm.bmj.com",
+      "ncbi.nlm.nih.gov",
+      "catapultsports.com"
+    ],
+    "posted_iso": "2026-06-09",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
