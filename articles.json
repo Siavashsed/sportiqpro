@@ -225,5 +225,41 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Athlete's Ground Contact Time Is Lying to You",
+    "slug": "reactive-strength-index-amortization-ground-contact",
+    "meta_description": "RSI and amortization phase explained by a strength coach who's tested both in the field. Real data, real mistakes, real fixes.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/5319379/pexels-photo-5319379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "researchgate.net",
+      "journals.lww.com",
+      "physoc.onlinelibrary.wiley.com"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Whoop 5.0 Dropped in 2024 and Strength Coaches Are Still Arguing About It",
+    "slug": "whoop-5-strength-coaches-2024",
+    "meta_description": "Daniel Webb breaks down what Whoop 5.0's 2024 launch actually meant for strength coaches working with real athletes. Not hype. Real talk.",
+    "date": "June 13, 2024",
+    "date_iso": "2024-06-13",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/37938353/pexels-photo-37938353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ncbi.nlm.nih.gov",
+      "frontiersin.org"
+    ],
+    "posted_iso": "2026-07-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
