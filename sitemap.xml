@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://siavashsed.github.io/sportiqpro/</loc><lastmod>2026-07-13</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://siavashsed.github.io/sportiqpro/about/</loc><lastmod>2026-07-13</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://siavashsed.github.io/sportiqpro/contact/</loc><lastmod>2026-07-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://siavashsed.github.io/sportiqpro/privacy/</loc><lastmod>2026-07-13</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/</loc><lastmod>2026-07-14</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/about/</loc><lastmod>2026-07-14</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/contact/</loc><lastmod>2026-07-14</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/privacy/</loc><lastmod>2026-07-14</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://siavashsed.github.io/sportiqpro/periodization-models-linear-undulating-block/</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://siavashsed.github.io/sportiqpro/deload-weeks-preserve-strength-gains/</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://siavashsed.github.io/sportiqpro/plyometrics-heavy-lifting-athletes/</loc><lastmod>2026-05-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -19,4 +19,6 @@
   <url><loc>https://siavashsed.github.io/sportiqpro/catapult-2023-load-monitoring-update/</loc><lastmod>2023-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://siavashsed.github.io/sportiqpro/reactive-strength-index-amortization-ground-contact/</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://siavashsed.github.io/sportiqpro/whoop-5-strength-coaches-2024/</loc><lastmod>2024-06-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/in-season-athlete-strength-programming/</loc><lastmod>2026-07-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://siavashsed.github.io/sportiqpro/whoop-2020-covid-athlete-monitoring/</loc><lastmod>2020-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
