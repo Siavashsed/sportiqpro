@@ -261,5 +261,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "In-Season, Two Lifts a Week Beat Zero: Keeping Strength When Games Rule",
+    "slug": "in-season-athlete-strength-programming",
+    "meta_description": "How to program for the in-season athlete and hold onto strength when the schedule fights you. Real minimum doses, honest trade-offs, from a coach on the floor.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/5327556/pexels-photo-5327556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "nsca.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Week a Recovery Strap Started Catching COVID Before the Athletes Felt It",
+    "slug": "whoop-2020-covid-athlete-monitoring",
+    "meta_description": "In 2020 a Whoop strap flagged a PGA Tour player's COVID before symptoms hit. Here's what that meant for strength coaches watching athlete data.",
+    "date": "April 06, 2020",
+    "date_iso": "2020-04-06",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/35905602/pexels-photo-35905602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ncbi.nlm.nih.gov",
+      "mdpi.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
