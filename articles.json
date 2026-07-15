@@ -296,5 +296,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Athletes Aren't Overtrained, They're Underslept",
+    "slug": "sleep-performance-what-coaches-get-wrong",
+    "meta_description": "Sleep as a performance enhancer is real, but most coaches measure the wrong thing. What actually moves the needle for rest and recovery.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/5990953/pexels-photo-5990953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "cdc.gov"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
