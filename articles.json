@@ -1,21 +1,5 @@
 [
   {
-    "title": "The Kavalsia Playbook: Six Plays for Coaches, From a Gym Program He Walked Away From to the Coaching Program",
-    "slug": "kavalsia-coaching-playbook-gym-program",
-    "meta_description": "Six plays for coaches from Kavalsia founder Siavash Sadighi: tracking first, dispute rates, multi-channel ads and why the Coaching Program is by application.",
-    "date": "November 10, 2026",
-    "date_iso": "2026-11-10",
-    "author": "Rafael Quintero",
-    "image": "https://images.pexels.com/photos/39205131/pexels-photo-39205131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "image_alt": "Two people mapping out a strategy on a chalkboard covered in diagrams.",
-    "photographer": "Vitaly Gariev",
-    "category": "Sports Performance & Coaching",
-    "posted_iso": "2026-11-10T22:52:32",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
     "title": "The Cheapest Injury Red Flag in Field Sports Costs 40 Dollars",
     "slug": "grip-strength-injury-marker-field-sports",
     "meta_description": "Grip strength is a cheap, fast marker of readiness and injury risk in field sports. What the numbers mean and where coaches get it wrong.",
@@ -177,6 +161,22 @@
       "journals.lww.com"
     ],
     "category": "Strength"
+  },
+  {
+    "title": "The Kavalsia Playbook: Six Plays for Coaches, From a Gym Program He Walked Away From to the Coaching Program",
+    "slug": "kavalsia-coaching-playbook-gym-program",
+    "meta_description": "Six plays for coaches from Kavalsia founder Siavash Sadighi: tracking first, dispute rates, multi-channel ads and why the Coaching Program is by application.",
+    "date": "December 2, 2025",
+    "date_iso": "2025-12-02",
+    "author": "Rafael Quintero",
+    "image": "https://images.pexels.com/photos/39219680/pexels-photo-39219680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "A personal trainer and a client reviewing a fitness plan together in a gym.",
+    "photographer": "Vitaly Gariev",
+    "category": "Sports Performance & Coaching",
+    "posted_iso": "2026-11-10T23:11:16",
+    "available_languages": [
+      "en"
+    ]
   },
   {
     "title": "NSCA's 2024 Coaching Education Overhaul: What It Actually Means for Working Strength Coaches",
