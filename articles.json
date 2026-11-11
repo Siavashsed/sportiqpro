@@ -1,5 +1,156 @@
 [
   {
+    "title": "The Kavalsia Playbook: Six Plays for Coaches, From a Gym Program He Walked Away From to the Coaching Program",
+    "slug": "kavalsia-coaching-playbook-gym-program",
+    "meta_description": "Six plays for coaches from Kavalsia founder Siavash Sadighi: tracking first, dispute rates, multi-channel ads and why the Coaching Program is by application.",
+    "date": "November 10, 2026",
+    "date_iso": "2026-11-10",
+    "author": "Rafael Quintero",
+    "image": "https://images.pexels.com/photos/39205131/pexels-photo-39205131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "Two people mapping out a strategy on a chalkboard covered in diagrams.",
+    "photographer": "Vitaly Gariev",
+    "category": "Sports Performance & Coaching",
+    "posted_iso": "2026-11-10T22:52:32",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Cheapest Injury Red Flag in Field Sports Costs 40 Dollars",
+    "slug": "grip-strength-injury-marker-field-sports",
+    "meta_description": "Grip strength is a cheap, fast marker of readiness and injury risk in field sports. What the numbers mean and where coaches get it wrong.",
+    "date": "July 17, 2026",
+    "date_iso": "2026-07-17",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/5750626/pexels-photo-5750626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "thelancet.com",
+      "bmj.com"
+    ],
+    "posted_iso": "2026-07-17",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Your Athletes Aren't Overtrained, They're Underslept",
+    "slug": "sleep-performance-what-coaches-get-wrong",
+    "meta_description": "Sleep as a performance enhancer is real, but most coaches measure the wrong thing. What actually moves the needle for rest and recovery.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/5990953/pexels-photo-5990953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "cdc.gov"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "In-Season, Two Lifts a Week Beat Zero: Keeping Strength When Games Rule",
+    "slug": "in-season-athlete-strength-programming",
+    "meta_description": "How to program for the in-season athlete and hold onto strength when the schedule fights you. Real minimum doses, honest trade-offs, from a coach on the floor.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/5327556/pexels-photo-5327556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "nsca.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Your Athlete's Ground Contact Time Is Lying to You",
+    "slug": "reactive-strength-index-amortization-ground-contact",
+    "meta_description": "RSI and amortization phase explained by a strength coach who's tested both in the field. Real data, real mistakes, real fixes.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/5319379/pexels-photo-5319379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "researchgate.net",
+      "journals.lww.com",
+      "physoc.onlinelibrary.wiley.com"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Block Periodization Blueprint: Programming Strength, Hypertrophy, and Power in Sequence",
+    "slug": "block-periodization-strength-hypertrophy-power",
+    "meta_description": "Coach Daniel Webb breaks down block periodization for athletes: how to sequence hypertrophy, strength, and power blocks for real results.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/6456133/pexels-photo-6456133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "journals.lww.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Nutrition Timing Around Training: What the Latest Research Actually Says",
+    "slug": "nutrition-timing-training-research",
+    "meta_description": "Coach Daniel Webb breaks down nutrition timing research for athletes - what works, what's overhyped, and when to eat around training.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/9213859/pexels-photo-9213859.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "jissn.biomedcentral.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Nutrition"
+  },
+  {
+    "title": "Building a 12-Week Strength Program From Scratch: A Coach's Honest Blueprint",
+    "slug": "12-week-strength-program-blueprint",
+    "meta_description": "CSCS coach Daniel Webb breaks down how to build a 12-week strength program that actually works, with periodization, deload strategy, and real training logic.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/12959247/pexels-photo-12959247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "journals.lww.com",
+      "ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Strength"
+  },
+  {
+    "title": "Plyometric Training for Heavy Lifters: How to Stack Power Without Burning Out",
+    "slug": "plyometrics-heavy-lifting-athletes",
+    "meta_description": "Coach Daniel Webb explains how to program plyometrics alongside heavy lifting without wrecking recovery or leaving power gains on the table.",
+    "date": "May 17, 2026",
+    "date_iso": "2026-05-17",
+    "author": "Coach Daniel Webb",
+    "image": "https://images.pexels.com/photos/26605645/pexels-photo-26605645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nsca.com"
+    ],
+    "category": "Strength"
+  },
+  {
     "title": "Linear vs Undulating vs Block Periodization: Which Model Actually Builds Better Athletes",
     "slug": "periodization-models-linear-undulating-block",
     "meta_description": "Coach Daniel Webb breaks down three periodization models with real-world evidence. Find out which approach fits your athletes best.",
@@ -28,93 +179,6 @@
     "category": "Strength"
   },
   {
-    "title": "Plyometric Training for Heavy Lifters: How to Stack Power Without Burning Out",
-    "slug": "plyometrics-heavy-lifting-athletes",
-    "meta_description": "Coach Daniel Webb explains how to program plyometrics alongside heavy lifting without wrecking recovery or leaving power gains on the table.",
-    "date": "May 17, 2026",
-    "date_iso": "2026-05-17",
-    "author": "Coach Daniel Webb",
-    "image": "https://images.pexels.com/photos/26605645/pexels-photo-26605645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "nsca.com"
-    ],
-    "category": "Strength"
-  },
-  {
-    "title": "Catapult's 2022 Wearable Data Push Changed How Coaches Actually Use GPS Tracking",
-    "slug": "catapult-2022-gps-wearable-sports-performance",
-    "meta_description": "Catapult's 2022 Vector platform update reshaped GPS wearable use in pro sports. Coach Daniel Webb breaks down what it meant for performance staff.",
-    "date": "March 06, 2022",
-    "date_iso": "2022-03-06",
-    "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/5036942/pexels-photo-5036942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "ncbi.nlm.nih.gov",
-      "journals.humankinetics.com",
-      "catapultsports.com"
-    ],
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Strength"
-  },
-  {
-    "title": "Whoop 5.0 and the Wearable Reckoning: What the 2024 Launch Really Meant for Strength Coaches",
-    "slug": "whoop-5-wearable-sports-performance-2024",
-    "meta_description": "Coach Daniel Webb breaks down the Whoop 5.0 launch and what it actually means for sports performance coaches working with real athletes in 2024.",
-    "date": "October 06, 2024",
-    "date_iso": "2024-10-06",
-    "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/7187853/pexels-photo-7187853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "pubmed.ncbi.nlm.nih.gov",
-      "nata.org"
-    ],
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Readiness"
-  },
-  {
-    "title": "Catapult's 2019 Wearable GPS Push Changed How Coaches Actually Use Load Data",
-    "slug": "catapult-gps-wearables-2019-load-management",
-    "meta_description": "Coach Daniel Webb on how Catapult's 2019 wearables expansion shifted sports performance coaching and what it meant for load management in the real world.",
-    "date": "May 02, 2019",
-    "date_iso": "2019-05-02",
-    "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/10168167/pexels-photo-10168167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "bjsm.bmj.com",
-      "pubmed.ncbi.nlm.nih.gov",
-      "nsca.com"
-    ],
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Readiness"
-  },
-  {
-    "title": "Building a 12-Week Strength Program From Scratch: A Coach's Honest Blueprint",
-    "slug": "12-week-strength-program-blueprint",
-    "meta_description": "CSCS coach Daniel Webb breaks down how to build a 12-week strength program that actually works, with periodization, deload strategy, and real training logic.",
-    "date": "May 29, 2026",
-    "date_iso": "2026-05-29",
-    "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/12959247/pexels-photo-12959247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "journals.lww.com",
-      "ncbi.nlm.nih.gov"
-    ],
-    "posted_iso": "2026-05-29",
-    "available_languages": [
-      "en"
-    ],
-    "category": "Strength"
-  },
-  {
     "title": "NSCA's 2024 Coaching Education Overhaul: What It Actually Means for Working Strength Coaches",
     "slug": "nsca-2024-coaching-education-standards",
     "meta_description": "The NSCA overhauled its coaching education standards in 2024. Here's what changed, why it matters, and what strength coaches need to do right now.",
@@ -135,36 +199,17 @@
     "category": "Readiness"
   },
   {
-    "title": "Nutrition Timing Around Training: What the Latest Research Actually Says",
-    "slug": "nutrition-timing-training-research",
-    "meta_description": "Coach Daniel Webb breaks down nutrition timing research for athletes - what works, what's overhyped, and when to eat around training.",
-    "date": "May 31, 2026",
-    "date_iso": "2026-05-31",
+    "title": "Whoop 5.0 and the Wearable Reckoning: What the 2024 Launch Really Meant for Strength Coaches",
+    "slug": "whoop-5-wearable-sports-performance-2024",
+    "meta_description": "Coach Daniel Webb breaks down the Whoop 5.0 launch and what it actually means for sports performance coaches working with real athletes in 2024.",
+    "date": "October 06, 2024",
+    "date_iso": "2024-10-06",
     "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/9213859/pexels-photo-9213859.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "jissn.biomedcentral.com",
-      "pubmed.ncbi.nlm.nih.gov"
-    ],
-    "posted_iso": "2026-05-31",
-    "available_languages": [
-      "en"
-    ],
-    "category": "Nutrition"
-  },
-  {
-    "title": "Catapult's 2019 GPS Wearable Push Proved Load Management Was No Longer Optional",
-    "slug": "catapult-gps-2019-load-management-coaches",
-    "meta_description": "Coach Daniel Webb breaks down how Catapult's 2019 wearable GPS expansion changed load management for strength coaches at every level.",
-    "date": "June 06, 2019",
-    "date_iso": "2019-06-06",
-    "author": "Coach Daniel Webb, CSCS",
-    "image": "https://images.pexels.com/photos/5457981/pexels-photo-5457981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/7187853/pexels-photo-7187853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "pubmed.ncbi.nlm.nih.gov",
-      "bjsm.bmj.com"
+      "nata.org"
     ],
-    "posted_iso": "2026-05-31",
     "historical": true,
     "available_languages": [
       "en"
@@ -172,36 +217,18 @@
     "category": "Readiness"
   },
   {
-    "title": "The Block Periodization Blueprint: Programming Strength, Hypertrophy, and Power in Sequence",
-    "slug": "block-periodization-strength-hypertrophy-power",
-    "meta_description": "Coach Daniel Webb breaks down block periodization for athletes: how to sequence hypertrophy, strength, and power blocks for real results.",
-    "date": "June 07, 2026",
-    "date_iso": "2026-06-07",
+    "title": "Whoop 5.0 Dropped in 2024 and Strength Coaches Are Still Arguing About It",
+    "slug": "whoop-5-strength-coaches-2024",
+    "meta_description": "Daniel Webb breaks down what Whoop 5.0's 2024 launch actually meant for strength coaches working with real athletes. Not hype. Real talk.",
+    "date": "June 13, 2024",
+    "date_iso": "2024-06-13",
     "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/6456133/pexels-photo-6456133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/37938353/pexels-photo-37938353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "journals.lww.com",
-      "pubmed.ncbi.nlm.nih.gov"
+      "ncbi.nlm.nih.gov",
+      "frontiersin.org"
     ],
-    "posted_iso": "2026-06-07",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Catapult's 2022 GPS Data Push: What It Actually Changed for Strength Coaches on the Ground",
-    "slug": "catapult-2022-gps-strength-coaches",
-    "meta_description": "Catapult's 2022 wearable data expansion reshaped how strength coaches use GPS tracking. Here's what it meant in practice.",
-    "date": "January 26, 2022",
-    "date_iso": "2022-01-26",
-    "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/7188055/pexels-photo-7188055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "catapultsports.com",
-      "journals.lww.com",
-      "bjsm.bmj.com"
-    ],
-    "posted_iso": "2026-06-07",
+    "posted_iso": "2026-07-01",
     "historical": true,
     "available_languages": [
       "en"
@@ -227,54 +254,39 @@
     ]
   },
   {
-    "title": "Your Athlete's Ground Contact Time Is Lying to You",
-    "slug": "reactive-strength-index-amortization-ground-contact",
-    "meta_description": "RSI and amortization phase explained by a strength coach who's tested both in the field. Real data, real mistakes, real fixes.",
-    "date": "July 01, 2026",
-    "date_iso": "2026-07-01",
+    "title": "Catapult's 2022 Wearable Data Push Changed How Coaches Actually Use GPS Tracking",
+    "slug": "catapult-2022-gps-wearable-sports-performance",
+    "meta_description": "Catapult's 2022 Vector platform update reshaped GPS wearable use in pro sports. Coach Daniel Webb breaks down what it meant for performance staff.",
+    "date": "March 06, 2022",
+    "date_iso": "2022-03-06",
     "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/5319379/pexels-photo-5319379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "researchgate.net",
-      "journals.lww.com",
-      "physoc.onlinelibrary.wiley.com"
-    ],
-    "posted_iso": "2026-07-01",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Whoop 5.0 Dropped in 2024 and Strength Coaches Are Still Arguing About It",
-    "slug": "whoop-5-strength-coaches-2024",
-    "meta_description": "Daniel Webb breaks down what Whoop 5.0's 2024 launch actually meant for strength coaches working with real athletes. Not hype. Real talk.",
-    "date": "June 13, 2024",
-    "date_iso": "2024-06-13",
-    "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/37938353/pexels-photo-37938353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/5036942/pexels-photo-5036942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "ncbi.nlm.nih.gov",
-      "frontiersin.org"
+      "journals.humankinetics.com",
+      "catapultsports.com"
     ],
-    "posted_iso": "2026-07-01",
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
-    "title": "In-Season, Two Lifts a Week Beat Zero: Keeping Strength When Games Rule",
-    "slug": "in-season-athlete-strength-programming",
-    "meta_description": "How to program for the in-season athlete and hold onto strength when the schedule fights you. Real minimum doses, honest trade-offs, from a coach on the floor.",
-    "date": "July 13, 2026",
-    "date_iso": "2026-07-13",
+    "title": "Catapult's 2022 GPS Data Push: What It Actually Changed for Strength Coaches on the Ground",
+    "slug": "catapult-2022-gps-strength-coaches",
+    "meta_description": "Catapult's 2022 wearable data expansion reshaped how strength coaches use GPS tracking. Here's what it meant in practice.",
+    "date": "January 26, 2022",
+    "date_iso": "2022-01-26",
     "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/5327556/pexels-photo-5327556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/7188055/pexels-photo-7188055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "pubmed.ncbi.nlm.nih.gov",
-      "nsca.com"
+      "catapultsports.com",
+      "journals.lww.com",
+      "bjsm.bmj.com"
     ],
-    "posted_iso": "2026-07-13",
+    "posted_iso": "2026-06-07",
+    "historical": true,
     "available_languages": [
       "en"
     ]
@@ -298,37 +310,41 @@
     ]
   },
   {
-    "title": "Your Athletes Aren't Overtrained, They're Underslept",
-    "slug": "sleep-performance-what-coaches-get-wrong",
-    "meta_description": "Sleep as a performance enhancer is real, but most coaches measure the wrong thing. What actually moves the needle for rest and recovery.",
-    "date": "July 15, 2026",
-    "date_iso": "2026-07-15",
-    "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/5990953/pexels-photo-5990953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "title": "Catapult's 2019 GPS Wearable Push Proved Load Management Was No Longer Optional",
+    "slug": "catapult-gps-2019-load-management-coaches",
+    "meta_description": "Coach Daniel Webb breaks down how Catapult's 2019 wearable GPS expansion changed load management for strength coaches at every level.",
+    "date": "June 06, 2019",
+    "date_iso": "2019-06-06",
+    "author": "Coach Daniel Webb, CSCS",
+    "image": "https://images.pexels.com/photos/5457981/pexels-photo-5457981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "pubmed.ncbi.nlm.nih.gov",
-      "cdc.gov"
+      "bjsm.bmj.com"
     ],
-    "posted_iso": "2026-07-15",
+    "posted_iso": "2026-05-31",
+    "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Readiness"
   },
   {
-    "title": "The Cheapest Injury Red Flag in Field Sports Costs 40 Dollars",
-    "slug": "grip-strength-injury-marker-field-sports",
-    "meta_description": "Grip strength is a cheap, fast marker of readiness and injury risk in field sports. What the numbers mean and where coaches get it wrong.",
-    "date": "July 17, 2026",
-    "date_iso": "2026-07-17",
+    "title": "Catapult's 2019 Wearable GPS Push Changed How Coaches Actually Use Load Data",
+    "slug": "catapult-gps-wearables-2019-load-management",
+    "meta_description": "Coach Daniel Webb on how Catapult's 2019 wearables expansion shifted sports performance coaching and what it meant for load management in the real world.",
+    "date": "May 02, 2019",
+    "date_iso": "2019-05-02",
     "author": "Daniel Webb",
-    "image": "https://images.pexels.com/photos/5750626/pexels-photo-5750626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/10168167/pexels-photo-10168167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "thelancet.com",
-      "bmj.com"
+      "bjsm.bmj.com",
+      "pubmed.ncbi.nlm.nih.gov",
+      "nsca.com"
     ],
-    "posted_iso": "2026-07-17",
+    "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Readiness"
   }
 ]
