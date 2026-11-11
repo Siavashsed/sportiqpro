@@ -14,7 +14,8 @@
     "posted_iso": "2026-07-17",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Readiness"
   },
   {
     "title": "Your Athletes Aren't Overtrained, They're Underslept",
@@ -31,7 +32,8 @@
     "posted_iso": "2026-07-15",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "In-Season, Two Lifts a Week Beat Zero: Keeping Strength When Games Rule",
@@ -48,7 +50,8 @@
     "posted_iso": "2026-07-13",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "Your Athlete's Ground Contact Time Is Lying to You",
@@ -66,7 +69,8 @@
     "posted_iso": "2026-07-01",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "The Block Periodization Blueprint: Programming Strength, Hypertrophy, and Power in Sequence",
@@ -83,7 +87,8 @@
     "posted_iso": "2026-06-07",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "Nutrition Timing Around Training: What the Latest Research Actually Says",
@@ -232,7 +237,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Readiness"
   },
   {
     "title": "Catapult's 2023 Overhaul Changed How Coaches Read Athlete Load Data",
@@ -251,7 +257,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "Catapult's 2022 Wearable Data Push Changed How Coaches Actually Use GPS Tracking",
@@ -289,7 +296,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "The Week a Recovery Strap Started Catching COVID Before the Athletes Felt It",
@@ -307,7 +315,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Strength"
   },
   {
     "title": "Catapult's 2019 GPS Wearable Push Proved Load Management Was No Longer Optional",
