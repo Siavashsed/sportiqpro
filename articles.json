@@ -355,5 +355,42 @@
       "en"
     ],
     "category": "Readiness"
+  },
+  {
+    "title": "Isometric Training Is the Strength Tool Your Athletes Keep Skipping",
+    "slug": "isometric-training-athletes-strength-joints",
+    "meta_description": "Isometric training builds strength and joint stability at a low fatigue cost. A strength coach on which holds to use, when, and where the research is shaky.",
+    "date": "November 15, 2026",
+    "date_iso": "2026-11-15",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/17210043/pexels-photo-17210043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "onlinelibrary.wiley.com",
+      "journals.physiology.org",
+      "bjsm.bmj.com"
+    ],
+    "posted_iso": "2026-11-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Guardian Caps Halved NFL Practice Concussions. Train the Neck Anyway",
+    "slug": "nfl-guardian-cap-mandate-2022-neck-training",
+    "meta_description": "The NFL's 2022 Guardian Cap mandate cut preseason practice concussions by about half. A strength coach explains what the data misses and why necks still matter.",
+    "date": "May 11, 2022",
+    "date_iso": "2022-05-11",
+    "author": "Daniel Webb",
+    "image": "",
+    "outbound_links": [
+      "nfl.com",
+      "operations.nfl.com",
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-15",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
