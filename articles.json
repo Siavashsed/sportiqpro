@@ -392,5 +392,21 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Why I Stopped Programming Linear Periodization for Anyone Past Year Two",
+    "slug": "linear-vs-undulating-vs-block-periodization",
+    "meta_description": "Linear vs undulating vs block periodization, compared by a strength coach. Which model fits novices, in-season athletes and peaking, and why.",
+    "date": "November 16, 2026",
+    "date_iso": "2026-11-16",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/4720767/pexels-photo-4720767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-11-16",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
