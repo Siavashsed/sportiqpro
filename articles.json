@@ -408,5 +408,21 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Deload Week Is Too Easy, and It's Costing You Strength",
+    "slug": "deload-week-programming-keep-strength",
+    "meta_description": "Deload weeks keep strength when you cut volume and keep the bar heavy. A strength coach's method for programming deloads without losing your gains.",
+    "date": "November 17, 2026",
+    "date_iso": "2026-11-17",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/18187616/pexels-photo-18187616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-17",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
