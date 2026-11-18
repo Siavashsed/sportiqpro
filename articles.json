@@ -424,5 +424,21 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Strongest Lifters Need Fewer Jumps Than You Think",
+    "slug": "plyometrics-strong-athletes-fewer-jumps",
+    "meta_description": "Plyometrics for athletes who lift heavy work best at low volume, paired with strength work. A strength coach on contacts, timing and contrast sets.",
+    "date": "November 18, 2026",
+    "date_iso": "2026-11-18",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/6008996/pexels-photo-6008996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-11-18",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
