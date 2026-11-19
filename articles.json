@@ -440,5 +440,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Athlete Isn't Slow Because They Don't Sprint Enough",
+    "slug": "speed-development-beyond-sprints",
+    "meta_description": "Speed development stalls when sprinting is the only tool. A strength coach explains the force and stiffness gaps that sprint volume won't close.",
+    "date": "November 19, 2026",
+    "date_iso": "2026-11-19",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/12585946/pexels-photo-12585946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "journals.physiology.org",
+      "pubmed.ncbi.nlm.nih.gov",
+      "bjsm.bmj.com"
+    ],
+    "posted_iso": "2026-11-19",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
