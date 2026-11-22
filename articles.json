@@ -491,5 +491,41 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your 12-Week Strength Program Needs Fewer Lifts Than You Think",
+    "slug": "12-week-strength-program-from-scratch",
+    "meta_description": "How to build a 12-week strength program from scratch: three 4-week blocks, five lifts, and progression rules a coach actually uses with athletes.",
+    "date": "November 22, 2026",
+    "date_iso": "2026-11-22",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/34043586/pexels-photo-34043586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-11-22",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The 2020 Restart Punished Coaches Who Treated Lockdown Like Offseason",
+    "slug": "2020-restart-lockdown-return-to-play-lessons",
+    "meta_description": "In 2020, the restart of pro sport after lockdown exposed how badly coaches planned return-to-play loads. Here's what the NBA bubble and five-sub rule taught us.",
+    "date": "April 25, 2020",
+    "date_iso": "2020-04-25",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/7187876/pexels-photo-7187876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "theifab.com",
+      "nba.com",
+      "bjsm.bmj.com",
+      "ouraring.com"
+    ],
+    "posted_iso": "2026-11-22",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
