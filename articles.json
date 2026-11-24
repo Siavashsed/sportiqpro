@@ -544,5 +544,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Most Athletes Train Too Much, Recover Too Little, and Pay for It",
+    "slug": "athletes-train-too-much-recover-too-little",
+    "meta_description": "Why most athletes train too much and recover too little, what the injury and sleep data says, and how a strength coach fixes the ratio.",
+    "date": "November 24, 2026",
+    "date_iso": "2026-11-24",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/4364163/pexels-photo-4364163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "bjsm.bmj.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-11-24",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
