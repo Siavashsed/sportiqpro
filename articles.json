@@ -577,5 +577,21 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Bar Speed Beats Your Spreadsheet for Deciding When to Stop Lifting",
+    "slug": "velocity-based-training-autoregulate-fatigue",
+    "meta_description": "Velocity-based training lets you autoregulate loads and spot fatigue by bar speed. Here's the velocity-loss method a strength coach actually uses.",
+    "date": "November 26, 2026",
+    "date_iso": "2026-11-26",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/5327534/pexels-photo-5327534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-26",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
