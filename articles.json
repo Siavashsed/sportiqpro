@@ -593,5 +593,21 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Velocity-Based Training Beats Percentages, and Your Old 1RM Is the Reason",
+    "slug": "velocity-based-training-autoregulating-load",
+    "meta_description": "Velocity-based training lets bar speed set your load each day. Here's how a strength coach uses it, what the research says, and where it falls short.",
+    "date": "November 27, 2026",
+    "date_iso": "2026-11-27",
+    "author": "Daniel Webb",
+    "image": "https://images.pexels.com/photos/896058/pexels-photo-896058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-27",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
